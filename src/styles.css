@@ -2,3 +2,27 @@ h1 {
   color: blue;
   text-align: center;
 }
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin: 0 auto;
+}
+p.humidity-wind-section {
+  text-align: right;
+  list-style: none;
+}
+.current-temperature {
+  text-align: center;
+  list-style: none;
+}
+p.current-day-information {
+  text-align: center;
+}
