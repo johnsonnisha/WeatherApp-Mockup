@@ -8,18 +8,14 @@
       <link rel="stylesheet" href="src/styles.css" />
     </head>
     <header>
-       <form>
+       <form id="city-search">
         <input type="search" placeholder="Enter city name..."required/>
         <input type="submit" value="search"/>
        </form>
     </header>
     <main> 
-       <div class="background-container">
-           <img src="jpg/sky-weatherapp.jpg" alt="sky" style="width:100;">
-        </div>
-        <body>
             <div>
-                <h1>City Name</h1>
+                <h1 class="current-city" id="current-city">City Name</h1>
                 <p class="current-day-information" id="current-day-information">
                     Monday 18:49, weather description
                     <br/>
@@ -31,16 +27,22 @@
             </div>
             <ul>
                 <li>☁️Monday</li>
-             <p class="humidity-wind-section">10°/40°</p>
-             <li>☁️Tuesday</li>
-             <p class="humidity-wind-section">10°/40°</p>
-             <li>☁️Wednesday</li>
-             <p class="humidity-wind-section">10°/40°</p>
-             <li>☁️Thursday</li>
-             <p class="humidity-wind-section">10°/40°</p>
-             <li>☁️Friday</li>
-             <p class="humidity-wind-section">10°/40°</p>
-             <li>☁️Saturday</li>
+                <div class="day-temperature-icon"> ⛈️</div> 
+                <p class="humidity-wind-section">10°/40°</p>
+                <li>☁️Tuesday</li>
+                <div class="day-temperature-icon"> ⛈️</div>
+                <p class="humidity-wind-section">10°/40°</p>
+                <li>☁️Wednesday</li>
+                <div class="day-temperature-icon"> ⛈️</div>
+                <p class="humidity-wind-section">10°/40°</p>
+                <li>☁️Thursday</li>
+                <div class="day-temperature-icon"> ⛈️</div>
+                <p class="humidity-wind-section">10°/40°</p>
+                <li>☁️Friday</li>
+                <div class="day-temperature-icon"> ⛈️</div>
+                <p class="humidity-wind-section">10°/40°</p>
+                <li>☁️Saturday</li>
+                <div class="day-temperature-icon"> ⛈️</div>
              <p class="humidity-wind-section">10°/40°</p>
             </ul>
         </main>
