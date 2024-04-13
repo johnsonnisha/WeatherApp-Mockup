@@ -1,0 +1,10 @@
+.weather-app {
+  box-sizing: border-box;
+  padding: 40px;
+  box-shadow: 0 30px 50px #41326414;
+  background: #fff;
+  font-style: sedan-regular;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
