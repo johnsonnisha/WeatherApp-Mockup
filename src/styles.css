@@ -1,5 +1,8 @@
+body {
+  color: aliceblue;
+}
 h1.current-city {
-  color: blue;
+  color: black;
   text-align: center;
   font-weight: bold;
   font-size: 45px;
@@ -11,6 +14,7 @@ ul {
 li {
   list-style: none;
   font-size: 18px;
+  color: black;
   text-align: center;
   padding: 10px 0;
   border-radius: 10px;
@@ -23,19 +27,30 @@ p.humidity-wind-section {
   list-style: none;
   font-size: 18px;
   font-weight: 300;
+  color: black;
 }
 .current-temperature {
   text-align: center;
   list-style: none;
+  color: black;
   font-size: 18px;
 }
 p.current-day-information {
   text-align: center;
+  color: black;
 }
 .day-temperature-icon {
   text-align: right;
   list-style: none;
+  color: black;
 }
 footer {
   text-align: center;
+  color: black;
+}
+.weather-app {
+  box-sizing: border-box;
+  padding: 40px;
+  box-shadow: 0 30px 50px #41326414;
+  background: #fff;
 }

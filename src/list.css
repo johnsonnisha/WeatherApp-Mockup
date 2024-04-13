@@ -1,0 +1,23 @@
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  max-width: 400px;
+  margin: 0 auto;
+}
+p.current-day-information {
+  text-align: center;
+  color: black;
+}
+.day-temperature-icon {
+  text-align: right;
+  list-style: none;
+  color: black;
+}

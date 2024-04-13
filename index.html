@@ -6,14 +6,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mock Weather App</title>
       <link rel="stylesheet" href="src/styles.css" />
+      <link rel="stylesheet" href="src/list.css"/>
+      <link rel="stylesheet" href="src/form.css"/>
     </head>
-    <header>
-       <form id="city-search">
-        <input type="search" placeholder="Enter city name..."required/>
-        <input type="submit" value="search"/>
-       </form>
-    </header>
-    <main> 
+    <div class="weather-app">
+
+        <header>
+            <form id="city-search">
+                <input type="search" placeholder="Enter city name..."required/>
+                <input type="submit" value="search"/>
+            </form>
+        </header>
+        <main>  
             <div>
                 <h1 class="current-city" id="current-city">City Name</h1>
                 <p class="current-day-information" id="current-day-information">
@@ -43,26 +47,27 @@
                 <p class="humidity-wind-section">10°/40°</p>
                 <li>☁️Saturday</li>
                 <div class="day-temperature-icon"> ⛈️</div>
-             <p class="humidity-wind-section">10°/40°</p>
+                <p class="humidity-wind-section">10°/40°</p>
             </ul>
         </main>
-            <footer>
-                <a href="https://github.com/johnsonnisha" target="_blank"
-                >Coded by Nisha Johnson</a
-                >
-        hosted on
-        <a
-          href="https://github.com/johnsonnisha/WeatherApp-Mockup"
-          target="_blank"
-          >Github</a
-        >
-        and website hosted on
-        <a
-          href="https://kindathebestmockweatherapp.netlify.app/"
-          target="_blank"
-          >Netlify</a
-        >
-      </footer>
+        <footer>
+            <a href="https://github.com/johnsonnisha" target="_blank"
+            >Coded by Nisha Johnson</a
+            >
+            hosted on
+            <a
+            href="https://github.com/johnsonnisha/WeatherApp-Mockup"
+            target="_blank"
+            >Github</a
+            >
+            and website hosted on
+            <a
+            href="https://kindathebestmockweatherapp.netlify.app/"
+            target="_blank"
+            >Netlify</a
+            >
+        </footer>
+    </div>
     </body>
   </html>
 </html>
