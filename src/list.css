@@ -1,6 +1,6 @@
 ul {
   padding: 0;
-  display: block;
+  flex-direction: row;
   list-style-type: disc;
   margin-block-start: 16px;
   margin-block-end: 16px;
@@ -36,4 +36,7 @@ p.current-day-information {
   margin-right: 250px;
   margin-left: 250px;
   color: black;
+}
+p.current-day-information strong {
+  color: palevioletred;
 }

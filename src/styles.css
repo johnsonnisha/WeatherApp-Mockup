@@ -6,6 +6,7 @@ h1.current-city {
   text-align: center;
   font-weight: bold;
   font-size: 45px;
+  margin: 0;
 }
 footer {
   text-align: center;
@@ -16,6 +17,7 @@ footer {
   font-family: "Sedan", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: small;
 }
 .current-temperature {
   text-align: center;

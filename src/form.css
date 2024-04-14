@@ -9,7 +9,7 @@
   font-family: "Sedan", serif;
   font-weight: 400;
   font-style: normal;
-  padding: auto;
+  padding: 0 0 30px 0;
 }
 .city-search {
   text-align: center;
@@ -49,4 +49,7 @@
   height: 50px;
   max-width: 100%;
   width: 50%;
+}
+.search-button:hover {
+  background-color: #a1caf1;
 }
