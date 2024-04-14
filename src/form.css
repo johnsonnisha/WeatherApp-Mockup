@@ -1,10 +1,52 @@
 .weather-app {
   box-sizing: border-box;
-  padding: 40px;
+  max-width: fit-content;
+  margin: auto;
+  border-radius: 25px;
   box-shadow: 0 30px 50px #41326414;
-  background: #fff;
+  background: aliceblue;
   font-style: sedan-regular;
   font-family: "Sedan", serif;
   font-weight: 400;
   font-style: normal;
+  padding: auto;
+}
+.city-search {
+  text-align: center;
+  font-size: medium;
+  border-bottom: 1px solid #f9f7fe;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  padding: 40px;
+  border-radius: 16px;
+}
+.search-button {
+  color: black;
+  font-style: sedan-regular;
+  font-family: "Sedan", serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: medium;
+  background-color: white;
+  border-radius: 60px;
+  border-color: azure;
+  height: 50px;
+  border: none;
+  width: 30%;
+  padding: 10px;
+}
+.search-input {
+  background-color: white;
+  color: #878787;
+  font-style: sedan-regular;
+  font-size: medium;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  border: none;
+  border-radius: 75px;
+  height: 50px;
+  max-width: 100%;
+  width: 50%;
 }

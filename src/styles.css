@@ -1,5 +1,5 @@
 body {
-  color: aliceblue;
+  color: #a1caf1;
 }
 h1.current-city {
   color: black;
@@ -7,50 +7,20 @@ h1.current-city {
   font-weight: bold;
   font-size: 45px;
 }
-ul {
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  font-size: 18px;
-  color: black;
+footer {
   text-align: center;
-  padding: 10px 0;
-  border-radius: 10px;
-  transition: all 200ms ease-in-out;
-  max-width: 400px;
-  margin: 0 auto;
-}
-p.humidity-wind-section {
-  text-align: right;
-  list-style: none;
-  font-size: 18px;
-  font-weight: 300;
   color: black;
+  padding: 20px, 0 0 0;
+  border-top: 1px solid;
+  font-style: sedan-regular;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .current-temperature {
   text-align: center;
   list-style: none;
   color: black;
-  font-size: 18px;
-}
-p.current-day-information {
-  text-align: center;
-  color: black;
-}
-.day-temperature-icon {
-  text-align: right;
-  list-style: none;
-  color: black;
-}
-footer {
-  text-align: center;
-  color: black;
-}
-.weather-app {
-  box-sizing: border-box;
-  padding: 40px;
-  box-shadow: 0 30px 50px #41326414;
-  background: #fff;
+  font-size: 38px;
+  font-weight: bolder;
 }

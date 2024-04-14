@@ -1,5 +1,9 @@
 ul {
   padding: 0;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
 }
 li {
   list-style: none;
@@ -11,6 +15,15 @@ li {
   transition: all 200ms ease-in-out;
   max-width: 400px;
   margin: 0 auto;
+  text-align: center;
+}
+p.humidity-wind-section {
+  text-align: right;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 300;
+  color: black;
+  margin-right: 200px;
 }
 p.current-day-information {
   text-align: center;
@@ -19,5 +32,8 @@ p.current-day-information {
 .day-temperature-icon {
   text-align: right;
   list-style: none;
+  font-size: 25px;
+  margin-right: 250px;
+  margin-left: 250px;
   color: black;
 }
