@@ -1,10 +1,9 @@
 function showCity(event) {
   event.preventDefault();
+  let searchInput = document.querySelector("#city-search-input");
   let cityElement = document.querySelector("#current-city");
-  let currentCity = searchElement.value;
+  let currentCity = searchInput.value;
   cityElement.innerHTML = currentCity;
-  console.log(currentCity);
 }
-let searchElement = document.querySelector("#search-input");
-searchElement.addEventListener("search", showCity);
-console.log(searchElement);
+let searchElement = document.querySelector("#city-search");
+searchElement.addEventListener("submit", showCity);
