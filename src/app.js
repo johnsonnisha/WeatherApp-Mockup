@@ -4,6 +4,9 @@ function updateWeather(response) {
   currentTemperature.innerHTML = `${Math.round(temperature)}°C`;
   console.log(response.data);
 
+  let iconElement = document.querySelector("#icon");
+  iconElement.innerHTML = `<img src= "${response.data.condition.icon_url}" class="weather-icon">`;
+
   let descriptionElement = document.querySelector("#weather-description");
   descriptionElement.innerHTML = response.data.condition.description;
 
