@@ -7,80 +7,91 @@
       <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
       <title>Mock Weather App</title>
       <link rel="stylesheet" href="src/styles.css" />
-      <link rel="stylesheet" href="src/list.css"/>
-      <link rel="stylesheet" href="src/form.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="src/list.css" />
+      <link rel="stylesheet" href="src/form.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap"
+        rel="stylesheet"
+      />
     </head>
     <div class="weather-app">
-
-        <header>
-            <form class="city-search" id="city-search">
-                <input 
-                type="search" 
-                placeholder="Enter city name..."
-                required
-                class="city-search-input"
-                id="city-search-input" 
-                 />
-               <input
-                type="submit" 
-                value="Search"
-                 class="search-button" id="search-button"/>
-            </form>
-        </header>
-        <main>  
-            <div>
-                <h1 class="current-city" id="current-city"> Paris </h1>
-                <p class="current-day-information" id="current-day-information">
-                    <span id="time-section"></span>,<span id="weather-description">weather description</span> 
-                    <br/>
-                    Humidity: <strong id="humidity-section">0%</strong>, Wind: <strong id="windspeed">0.0</strong>
-                </p>
-            </div>
-            <div class="current-temperature" id="current-temperature">
-            </div>
-            <ul>
-                <li>☁️Monday</li>
-                <div class="day-temperature-icon"> ⛈️</div> 
-                <p class="humidity-wind-section">10°/40°</p>
-                <li>☁️Tuesday</li>
-                <div class="day-temperature-icon"> ⛈️</div>
-                <p class="humidity-wind-section">10°/40°</p>
-                <li>☁️Wednesday</li>
-                <div class="day-temperature-icon"> ⛈️</div>
-                <p class="humidity-wind-section">10°/40°</p>
-                <li>☁️Thursday</li>
-                <div class="day-temperature-icon"> ⛈️</div>
-                <p class="humidity-wind-section">10°/40°</p>
-                <li>☁️Friday</li>
-                <div class="day-temperature-icon"> ⛈️</div>
-                <p class="humidity-wind-section">10°/40°</p>
-                <li>☁️Saturday</li>
-                <div class="day-temperature-icon"> ⛈️</div>
-                <p class="humidity-wind-section">10°/40°</p>
-            </ul>
-        </main>
-        <footer>
-            <a href="https://github.com/johnsonnisha" target="_blank"
-            >Coded by Nisha Johnson</a
-            >
-            hosted on
-            <a
-            href="https://github.com/johnsonnisha/WeatherApp-Mockup"
-            target="_blank"
-            >Github</a
-            >
-            and website hosted on
-            <a
-            href="https://kindathebestmockweatherapp.netlify.app/"
-            target="_blank"
-            >Netlify</a
-            >
-        </footer>
+      <header>
+        <form class="city-search" id="city-search">
+          <input
+            type="search"
+            placeholder="Enter city name..."
+            required
+            class="city-search-input"
+            id="city-search-input"
+          />
+          <input
+            type="submit"
+            value="Search"
+            class="search-button"
+            id="search-button"
+          />
+        </form>
+      </header>
+      <main>
+        <div>
+          <span id="icon">
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png"
+              alt=""
+              class="weather-icon"
+            />
+          </span>
+          <h1 class="current-city" id="current-city">Paris</h1>
+          <p class="current-day-information" id="current-day-information">
+            <span id="time-section"></span>,
+            <span id="weather-description">weather description</span>
+            <br />
+            Humidity: <strong id="humidity-section">0%</strong>, Wind:
+            <strong id="windspeed">0.0</strong>
+          </p>
+        </div>
+        <div class="current-temperature" id="current-temperature"></div>
+        <ul>
+          <li>☁️Monday</li>
+          <div class="day-temperature-icon">⛈️</div>
+          <p class="humidity-wind-section">10°/40°</p>
+          <li>☁️Tuesday</li>
+          <div class="day-temperature-icon">⛈️</div>
+          <p class="humidity-wind-section">10°/40°</p>
+          <li>☁️Wednesday</li>
+          <div class="day-temperature-icon">⛈️</div>
+          <p class="humidity-wind-section">10°/40°</p>
+          <li>☁️Thursday</li>
+          <div class="day-temperature-icon">⛈️</div>
+          <p class="humidity-wind-section">10°/40°</p>
+          <li>☁️Friday</li>
+          <div class="day-temperature-icon">⛈️</div>
+          <p class="humidity-wind-section">10°/40°</p>
+          <li>☁️Saturday</li>
+          <div class="day-temperature-icon">⛈️</div>
+          <p class="humidity-wind-section">10°/40°</p>
+        </ul>
+      </main>
+      <footer>
+        <a href="https://github.com/johnsonnisha" target="_blank"
+          >Coded by Nisha Johnson</a
+        >
+        hosted on
+        <a
+          href="https://github.com/johnsonnisha/WeatherApp-Mockup"
+          target="_blank"
+          >Github</a
+        >
+        and website hosted on
+        <a
+          href="https://kindathebestmockweatherapp.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
     <script src="src/app.js"></script>
-    </body>
   </html>
 </html>

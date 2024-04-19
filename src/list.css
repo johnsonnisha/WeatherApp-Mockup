@@ -40,3 +40,9 @@ p.current-day-information {
 p.current-day-information strong {
   color: palevioletred;
 }
+img.weather-icon {
+  margin-left: 220px;
+  margin-right: 200px;
+  height: 150px;
+  margin-top: 0px;
+}
